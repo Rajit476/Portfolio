@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rajit Prakash — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&family=DM+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">RP</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-tag">/ Student · Developer</p>
+      <h1 class="hero-title">
+        <span class="hero-first">Rajit</span>
+        <span class="hero-last">Prakash</span>
+      </h1>
+      <p class="hero-sub">Building thoughtful things with code — one project at a time.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary">Say Hello</a>
+        <a href="#skills" class="btn-ghost">Explore Work ↓</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">scroll</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container split-layout">
+      <div class="about-left">
+        <div class="about-photo-wrap">
+          <div class="about-initials">RP</div>
+        </div>
+      </div>
+      <div class="about-right">
+        <span class="section-label">About Me</span>
+        <h2 class="section-title">Who is Rajit?</h2>
+        <p class="about-text">
+          I'm <strong>Rajit Prakash</strong>, a Computer Science student driven by a curiosity for how things work under the hood. As a <strong>Student Developer</strong> pursuing my B.Tech in Computer Science, I enjoy building robust backend systems and exploring the world of data through Python.
+        </p>
+        <p class="about-text">
+          Whether it's crafting a clean API with Node.js or wrangling data with Python, I love turning ideas into real, working software.
+        </p>
+        <div class="about-chips">
+          <span class="chip">Node.js</span>
+          <span class="chip">Python</span>
+          <span class="chip">B.Tech CS</span>
+          <span class="chip">Open to Opportunities</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <span class="section-label">What I Do</span>
+      <h2 class="section-title">Skills</h2>
+      <div class="skill-cards">
+        <div class="skill-card">
+          <div class="skill-card-icon">⚙️</div>
+          <h3>Node.js</h3>
+          <p>Building performant, scalable server-side applications and REST APIs using Node.js and its rich ecosystem.</p>
+          <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-icon">🐍</div>
+          <h3>Python</h3>
+          <p>Writing clean, expressive Python scripts for automation, data handling, and backend logic.</p>
+          <div class="skill-bar"><div class="skill-fill" style="width: 75%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-icon">🧠</div>
+          <h3>Problem Solving</h3>
+          <p>Applying algorithmic thinking and data structures to break down and solve complex computational challenges.</p>
+          <div class="skill-bar"><div class="skill-fill" style="width: 70%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="education section" id="education">
+    <div class="container">
+      <span class="section-label">Background</span>
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <span class="timeline-year">Current</span>
+            <h3>B.Tech — Computer Science</h3>
+            <p>Pursuing a Bachelor of Technology in Computer Science, with a focus on software development, algorithms, and data structures.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LANGUAGES -->
+  <section class="languages section" id="languages">
+    <div class="container">
+      <span class="section-label">Tools of the Trade</span>
+      <h2 class="section-title">Languages</h2>
+      <div class="lang-circles">
+        <div class="lang-circle-wrap">
+          <svg class="circle-svg" viewBox="0 0 120 120">
+            <circle class="circle-bg" cx="60" cy="60" r="50" />
+            <circle class="circle-prog" cx="60" cy="60" r="50" stroke-dasharray="314" stroke-dashoffset="63" />
+          </svg>
+          <div class="circle-label">
+            <span class="circle-pct">80%</span>
+            <span class="circle-name">Python</span>
+          </div>
+        </div>
+        <div class="lang-circle-wrap">
+          <svg class="circle-svg" viewBox="0 0 120 120">
+            <circle class="circle-bg" cx="60" cy="60" r="50" />
+            <circle class="circle-prog" cx="60" cy="60" r="50" stroke-dasharray="314" stroke-dashoffset="82" />
+          </svg>
+          <div class="circle-label">
+            <span class="circle-pct">74%</span>
+            <span class="circle-name">JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <span class="section-label">Get In Touch</span>
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-intro">Have a project idea, want to collaborate, or just say hi? I'd love to hear from you.</p>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Jane Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="jane@example.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Let's build something together..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Send Message →</button>
+        <p class="form-success" id="formSuccess">✅ Message sent! I'll get back to you soon.</p>
+      </form>
+      <div class="contact-links">
+        <a href="mailto:rajitprakash2007@gmail.com" class="contact-chip">📧 rajitprakash2007@gmail.com</a>
+        <a href="https://github.com/rajitprakash2007" target="_blank" class="contact-chip">🐙 GitHub</a>
+        <a href="https://linkedin.com/in/rajit-prakash-kuttikat" target="_blank" class="contact-chip">💼 LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Designed & built by <strong>Rajit Prakash</strong> · 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
